@@ -1,0 +1,265 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+input:focus {
+    border: 2px solid #0099CC;
+}
+
+
+html {
+	height: 100%;
+}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+	height: 100%;
+        color: #333;
+}
+
+a.logolink {
+    border:none;
+}
+
+a {
+    border-bottom:1px dotted #0099CC;
+    color:#0099CC;
+    text-decoration:none;
+    font:12px/18px Arial,Tahoma,Verdana,sans-serif;
+}
+a:hover {
+	border-bottom: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+
+.logo {
+    float:left;
+    width:200px;
+    margin:15px;
+}
+
+.logo img{
+    width:100px;
+}
+
+#wrapper {
+	max-width: 1380px;
+        min-width:1024px;
+	margin: 0 auto;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+        background: #f3f3f3
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+        background: url("/design/img/bg_index_header.png") repeat-x scroll 0 100% #F8F8F8;
+	height: 70px;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#middle {
+	width: 100%;
+	padding: 0 0 100px;
+	height: 1%;
+	position: relative;
+        padding-top:20px;
+}
+#middle:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+        padding-top:10px;
+}
+#content {
+	padding: 0 270px 0 270px;
+}
+
+
+/* Sidebar Left
+-----------------------------------------------------------------------------*/
+#sideLeft {
+	float: left;
+	width: 250px;
+	margin-left: -100%;
+	position: relative;
+        padding:10px;
+}
+
+
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+	float: left;
+	margin-right: -3px;
+	width: 250px;
+	margin-left: -250px;
+	position: relative;
+        padding-top:5px;
+        
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	max-width: 1380px;
+	margin: -100px auto 0;
+	height: 100px;
+        min-width:1024px;
+        padding-left:10px;
+        padding-right:10px;
+}
+
+.enter, .user{
+    float:right;
+    padding:20px;
+}
+
+.user{
+    padding: 10px 20px 20px 20px;
+}
+
+.blockTitle {
+    font-size:14px;
+    margin-bottom: 5px;
+}
+
+.regTitle {
+    margin-top:50px;
+    font-size:25px;
+    text-align:center;
+}
+.regForm ,.authForm{
+    text-align:center;
+    margin-top:10px;
+}
+
+.regForm .formIn, .authForm .formIn{
+  margin:20px;
+}
+
+.regForm input, .authForm input {
+    font-size:14px;
+}
+
+.regForm .formSub, .authForm .formSub{
+    margin-top:15px;
+}
+
+.validateReg {
+    margin-top:15px;
+    text-align:center;
+}
+
+.fileUpload , .fileManage {
+    margin-bottom:10px;
+}
+
+.mypage {
+    font-size: 15px;
+}
+
+.upload form div {
+    margin-bottom:10px;
+}
+
+.sideRight {
+    padding-right:10px;
+}
+
+.lastfile, .lastuser {
+    margin-bottom: 3px;
+}
+
+.file {
+
+}
+
+.categoryFile {
+    margin-top: 5px;
+}
+
+.filesByType tr.file td {
+    padding: 10px 10px 0 0;
+    vertical-align: top;
+}
+
+.filesByType .align-center {
+   text-align: center;
+}
+
+
+.delByType {
+    margin-top:20px;
+}
+
+.paging {
+    margin-top: 10px;
+}
+
+.paging a{
+    margin-right: 3px;
+}
+
+.paging a.activlink{
+    border-bottom:medium none;
+    color:#333;
+}
+
+.viewAll {
+    margin-top:15px;
+}
+
+.commentsBlock {
+ margin-top:30px;
+}
+
+.comment {
+    margin-bottom:10px;
+}
+
+.commArea {
+    margin-bottom: 5px;
+}
+
+.commArea textarea {
+    height:100px;
+    width:300px;
+}
+
+.response {
+    border-bottom:1px dotted #0099CC;
+    color:#0099CC;
+    font:12px/18px Arial,Tahoma,Verdana,sans-serif;
+    cursor: pointer;
+}
+
+.response:hover {
+    border-bottom:none;
+}
+
+.responseForm  {
+    display: none;
+}

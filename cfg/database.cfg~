@@ -1,0 +1,9 @@
+<?php
+
+return array (
+'hostname'   => 'localhost',
+'username'   => 'root',
+'password'   => '1234',
+'database'   => 'bibipedia'
+);
+?>

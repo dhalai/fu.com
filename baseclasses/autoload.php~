@@ -1,0 +1,13 @@
+<?php
+
+define('SYSTEM','../'.realpath(dirname(__FILE__)));
+
+
+
+
+
+
+
+
+
+?>
